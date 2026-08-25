@@ -1,0 +1,143 @@
+{
+  "papers": [
+    {
+      "id": "P-1042",
+      "title": "Explainable drought forecasting with satellite imagery",
+      "department": "Earth Systems",
+      "authors": [
+        "Dr. Maya Chen",
+        "Dr. Arjun Rao"
+      ],
+      "year": 2025,
+      "citations": 38,
+      "tags": [
+        "Climate AI",
+        "Remote sensing"
+      ],
+      "summary": "A transparent multimodal model combines satellite vegetation signals and regional climate observations."
+    },
+    {
+      "id": "P-1038",
+      "title": "Federated learning for clinical risk prediction",
+      "department": "Computer Science",
+      "authors": [
+        "Dr. Elena Voss",
+        "Dr. Arjun Rao"
+      ],
+      "year": 2025,
+      "citations": 54,
+      "tags": [
+        "Federated learning",
+        "Healthcare"
+      ],
+      "summary": "Privacy-preserving distributed learning improves risk prediction across partner hospitals."
+    },
+    {
+      "id": "P-1027",
+      "title": "Community trust in automated flood alerts",
+      "department": "Public Policy",
+      "authors": [
+        "Dr. Priya Nair"
+      ],
+      "year": 2024,
+      "citations": 27,
+      "tags": [
+        "Climate AI",
+        "Trust"
+      ],
+      "summary": "Evidence identifies how message framing and local institutions shape automated alert adoption."
+    },
+    {
+      "id": "P-1019",
+      "title": "Accessible interfaces for patient-generated health data",
+      "department": "Design",
+      "authors": [
+        "Dr. Elena Voss",
+        "Dr. Samir Patel"
+      ],
+      "year": 2024,
+      "citations": 31,
+      "tags": [
+        "Healthcare",
+        "Accessibility"
+      ],
+      "summary": "Participatory studies produce interface guidelines for health data systems."
+    },
+    {
+      "id": "P-1006",
+      "title": "Verifiable provenance for open research datasets",
+      "department": "Information Science",
+      "authors": [
+        "Dr. Samir Patel",
+        "Dr. Maya Chen"
+      ],
+      "year": 2023,
+      "citations": 46,
+      "tags": [
+        "Data provenance",
+        "Knowledge graphs"
+      ],
+      "summary": "A provenance graph records transformations, contributors, and reuse conditions."
+    },
+    {
+      "id": "P-1043",
+      "title": "Reference Material",
+      "department": "Computer Science",
+      "authors": [
+        "Unspecified author"
+      ],
+      "year": 2026,
+      "citations": 0,
+      "tags": [
+        "Machine learning"
+      ],
+      "summary": "BCA 209-3  Python Programming \nUnit - 1        DATA STRUCTURES AND CONTROL STRUCTURES\nPython\nPython is a popular programming language. It was created by Guido van Rossum, \nand released in 1991. It is used for:\n\uf0b7 Web development (server-side)\n\uf0b7 Software development\n\uf0b7 Mathematics\n\uf0b7 System scripting\nWhat can Python do? \uf0b7 Python can be used on a server to create web applications. \uf0b7 Python can be used alongside software to create workflows. \uf0b7 Python can connect to database systems. It can also read and modify files. \uf0b7 Python can be used to handle big data and perform complex mathematics. \uf0b7 Python can be used for rapid prototyping, or for production-ready software \ndevelopment. \uf0b7 Python works on different platforms (Windows, Mac, Linux, Raspberry Pi)\n\uf0b7 Python has a simple syntax similar to the English language. \uf0b7 Python has syntax that allows developers to write programs with fewer \nlines than"
+    }
+  ],
+  "connections": [
+    {
+      "source": "P-1042",
+      "target": "P-1038",
+      "label": "Dr. Arjun Rao",
+      "weight": 2
+    },
+    {
+      "source": "P-1042",
+      "target": "P-1027",
+      "label": "Climate AI",
+      "weight": 2
+    },
+    {
+      "source": "P-1042",
+      "target": "P-1006",
+      "label": "Dr. Maya Chen",
+      "weight": 2
+    },
+    {
+      "source": "P-1038",
+      "target": "P-1019",
+      "label": "Healthcare",
+      "weight": 2
+    },
+    {
+      "source": "P-1019",
+      "target": "P-1006",
+      "label": "Dr. Samir Patel",
+      "weight": 2
+    }
+  ],
+  "insights": [
+    {
+      "title": "Climate AI + public trust",
+      "copy": "Two groups study automated flood communication from different angles."
+    },
+    {
+      "title": "Clinical ML + accessible design",
+      "copy": "Patient-agency guidelines can strengthen healthcare AI adoption."
+    },
+    {
+      "title": "Dataset provenance gap",
+      "copy": "Three papers cite open data, but only one records a reusable trail."
+    }
+  ]
+}
