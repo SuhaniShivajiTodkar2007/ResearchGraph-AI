@@ -6,3 +6,4 @@ app = FastAPI()
 def health():
     return {"status": "ok", "service": "researchgraph-api"}
 
+
